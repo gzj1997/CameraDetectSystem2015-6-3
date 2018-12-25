@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraDetectSystem.Camera" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZgACAiAIAEgAIAAABAAAABIACAgFARAAgUEAQCjAQAA=</HashCode>
+      <FileName>Camera\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Algorithm" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAAAAAAAQgAAAAAAAAQBAAAAAAIAAAAAA=</HashCode>
+      <FileName>CameraSet\Algorithm\Algorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ThresholdSelectRegion" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAEEAAAABAAAQAIEAAAAAAAAAAAAAAIBAEEAA=</HashCode>
+      <FileName>CameraSet\Algorithm\ThresholdSelectRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.CameraSetForm" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RwBNIAxQAKAIA4UA0ACMUJoDCwAMCpAImCcGTSz+gRc=</HashCode>
+      <FileName>CameraSet\CameraSetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.DataHelper" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAIAAIAAAAAAgAAQAAACAAAAAABAEAAA=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ProductNum" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAAAIAAAQAAAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Result" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAEAAAAAAAAAEAAAIAAAAAAAEAAAAAAgAQ=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.BigSmallDiameter" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAACAAAAJAAIAAgAEwAEAAAAAAAAAAQAA=</HashCode>
+      <FileName>CameraSet\ImageTools\BigSmallDiameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ImageTools" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAACAABAIAAAQAACAAABQEAAEAAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\ImageTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.InnerCircletool" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBABAAACAAAACACAAIAAAQAUAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\InnerCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.myrake" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAAAACAAAAIAAABAgAFwIAAABIEIBAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\myrake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.OutCircletool" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBABAAACAAAACACAAIAAAQAUAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\OutCircletool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.RegionArea" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgJBAAAAAAAACgAAAIAAAAAAAAABAALAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\RegionArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.RegionCounts" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgLBAAAAAAAACgAAAIAAAAAAAAQBAALAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\RegionCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ScrewLength" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgLBAAAAAAAACgAAAIAAAAAAAAQBAALAAgAAAAAAIA=</HashCode>
+      <FileName>CameraSet\ImageTools\ScrewLengthTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ScrewPitchTool" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgLBAAgAAAAACgAAAIAAAAAAAAQBAALAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\ScrewPitchTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ShapeMatch" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAEAAAACAAAAIAAABAgAEwIAAABIEIAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\ShapeMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.XldLength" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAAAACAAAAIEAABAgAEwIAAABIEIAAAAAAA=</HashCode>
+      <FileName>CameraSet\ImageTools\XLDLength.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ToolBox" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\ToolBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Card" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAYQIACAACAAADAIQAGAAAQAQAAAEAAQAAwBAQAAIA=</HashCode>
+      <FileName>CardControl\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Dmc2210" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0qMFoQIAMCQC9CBCQE1JIIyxieAmEIIhAEcAwAgEgJg=</HashCode>
+      <FileName>CardControl\DMC2210.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.MyTimer" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAAgAAAAAAAAAABAAAAAAAAAAgA=</HashCode>
+      <FileName>CardControl\MyTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.CameraCheckOut" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CardControl\Nut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Nut" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQIAA=</HashCode>
+      <FileName>CardControl\Nut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Turntable" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQZAAAyIGAQgAFEwIIAQICAAQBAAADIYQABoBEKQAI=</HashCode>
+      <FileName>CardControl\Turntable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.HalconHelp" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQgA=</HashCode>
+      <FileName>Halcon\HalconHelp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.ControlSet" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEagAQCAAABIFgAGCAQACYCOE/QpAIFBAQDBiHgA=</HashCode>
+      <FileName>MainWindow\ControlSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.FileHelper" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAARAAAAAAAAAAAAAQAAAAAAAAAAQQAAAAAAA=</HashCode>
+      <FileName>MainWindow\FileHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.FormLoadProduct" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAACAAQAQAAACAAAACAACEAAAAgAAAAEgAAQA=</HashCode>
+      <FileName>MainWindow\LoadProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.MainForm" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQg0ECCQCCCAAABxgAGCcFBCMAE16QEAAwYC4ABCACA=</HashCode>
+      <FileName>MainWindow\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.FormNewProduct" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAICACAAQAAACAAAACAAAAAAgAhAAAAEAIAQA=</HashCode>
+      <FileName>MainWindow\NewProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.PathHelper" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAAAAAAAQAAQAEAAAAAAAEAAAAACgAAAgAIAA=</HashCode>
+      <FileName>MainWindow\PathHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.MyDebug" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyDebug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Program" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.SoftRegister" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAQAAACEAAIhAAAAAACAAAA=</HashCode>
+      <FileName>SoftRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.SplashWindow" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAEAAAAAACAAAACAAAAAAAAAAAAEABAAAA=</HashCode>
+      <FileName>Test\SplashWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Properties.Resources" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Properties.Settings" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDetectSystem.Test.CardAndCamera" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAACAAABACCACAQAAGDgAAAIAAAiIAgAAIAAA=</HashCode>
+      <FileName>Test\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CameraDetectSystem.IData" Collapsed="true">
+    <Position X="26" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CameraDetectSystem.DataSelected" Collapsed="true">
+    <Position X="24.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="CameraDetectSystem.Holes" Collapsed="true">
+    <Position X="24.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CameraSet\DataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CameraDetectSystem.MathineTyple" Collapsed="true">
+    <Position X="26" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CardControl\Card.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

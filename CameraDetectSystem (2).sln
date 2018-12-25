@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraDetectSystem", "CameraDetectSystem\CameraDetectSystem.csproj", "{EB688264-4FCD-478A-8710-30DC141F165B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E} = {3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basler", "Basler", "{16F4C54D-A4C5-4B0C-9510-ADBB29C0CBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pylon.NETSupportLibrary", "CameraDetectSystem\Pylon.NETSupportLibrary\Pylon.NETSupportLibrary.csproj", "{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Debug|x86.ActiveCfg = Debug|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Debug|x86.Build.0 = Debug|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Release|Any CPU.ActiveCfg = Release|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Release|x86.ActiveCfg = Release|x86
+		{EB688264-4FCD-478A-8710-30DC141F165B}.Release|x86.Build.0 = Release|x86
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E} = {16F4C54D-A4C5-4B0C-9510-ADBB29C0CBAB}
+	EndGlobalSection
+EndGlobal
